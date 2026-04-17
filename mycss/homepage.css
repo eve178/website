@@ -1,0 +1,115 @@
+#homepagecontent {
+    display: block;
+    clear: both; 
+    padding-top: 50px; 
+    width: 100%;
+}
+
+.digitaltitle {
+    text-align: center; 
+    padding: 1.042vw; 
+    padding-left: 10.417vw; 
+    padding-right: 10.417vw; 
+    display:inline;
+    color: #000000; 
+    border-bottom: 2px solid #000000;
+}
+
+.workspace {
+    padding: 0px;
+    width: 26.042vw;
+    height: 26.042vw;
+    max-width: 100%;
+}
+
+
+.container {
+    display: flex;  
+    align-items: flex-start; 
+    gap: 2.083vw;              
+    margin-top: 2.604vw;
+    max-width: 1200px;      
+    margin-left: auto;      
+    margin-right: auto;
+    text-align: left;
+}
+
+  @media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        align-items: center;    
+        text-align: center;
+        gap: 20px;
+    }
+    .workspace {
+        width: 80%;           
+        height: auto;          
+    }
+    .overview-content {
+        text-align: center;     
+    }
+  }
+
+#mario {
+    flex-shrink: 0;
+}
+
+.overview-content {
+    flex-grow: 1;
+    text-align: justify;
+    padding: 1rem;
+    color: black;
+}
+
+.overview {
+    padding-left: 0px; 
+    padding-right: 0px;
+    margin-top: 1.042vw;
+    margin-right: 1.042vw;
+    margin-left: 1.042vw;
+    margin-bottom: 1.563vw;
+}
+
+.overviewinfo {
+    margin-left: 1.042vw;
+    margin-right: 1.042vw;
+    margin-bottom: 8.229vw;
+}
+
+.footcontent {
+    padding: 0px;
+    margin-top: 2.604vw;
+    text-align: center;
+    border: 0.052vw solid black;
+    background-color: #363166;
+}
+
+.addtele {
+    margin-top: 2.604vw;
+}
+
+.socialmedia {
+    padding: 0px;
+    margin-right: 1.042vw;
+    margin-top: 1.563vw;
+    margin-bottom: 2.604vw;
+}
+
+.bi-instagram {
+    padding-top: 0px;
+    margin-right: 1.042vw;
+    margin-bottom: 2.604vw;
+}
+
+.bi-twitter-x {
+    padding: 0px;
+    margin-right: 1.042vw;
+    margin-bottom: 2.604vw;
+}
+
+.bi-linkedin {
+    padding: 0px;
+    margin-right: 1.042vw;
+    margin-bottom: 2.604vw;
+}
+

@@ -1,0 +1,41 @@
+#aboutuscontent {
+    display: block;
+    clear: both; 
+    padding-top: 50px; 
+    width: 100%;
+}
+
+.aboutustitle {
+   text-align: center; 
+    padding: 1.042vw; 
+    padding-left: 10.417vw; 
+    padding-right: 10.417vw; 
+    display:inline;
+    color: #000000; 
+    border-bottom: 2px solid #000000;
+}
+
+.container {
+    border: 1px solid rgb(0, 0, 0) !important;
+    width: 80%;
+    color: black;
+}
+
+.descriptiontitle {
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+    padding: 1rem 1rem 0 1rem; 
+    margin-bottom: 0px;
+    display: inline-block;
+    font-size: medium;
+}
+
+
+.description {
+    padding: 0px;
+    margin-top: 0px;
+    flex-grow: 1;
+    text-align: justify;
+    padding: 1rem;
+}
