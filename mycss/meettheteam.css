@@ -1,0 +1,96 @@
+#meettheteam {
+  display: block;
+  clear: both; 
+  padding-top: 50px; 
+  width: 100%;
+}
+
+.meettheteamtitle {
+  text-align: center; 
+  padding: 1.042vw; 
+  padding-left: 10.417vw; 
+  padding-right: 10.417vw;
+  padding-bottom: 0px; 
+  display:inline;
+  border-bottom: 2px solid #000000;
+}
+
+.meettheteamsection1 {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  padding-top: 30px;
+}
+.meettheteamsection2 {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+
+.column1, .column2, .column3, .column4, .column5, .column6 {
+  flex: 1;
+  padding: 20px;
+  min-height: 400px;
+  color: #ffffff;
+  background-color:#363166;
+  transition: transform 0.3s ease;
+}
+
+.column1:hover, .column2:hover, .column3:hover, .column4:hover, .column5:hover, .column6:hover {
+  background-color: #5b5879;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.eve, .nova, .haajir, .kieran, .katie, .jack {
+  max-width: 100%;  
+  height: auto;     
+  display: block;   
+  margin: 0 auto;
+}
+
+.evedescription, .novadescription, .haajirdescription, .kierandescription, .katiedescription, .jackdescription {
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  font-size: large;
+}
+
+.row1 { 
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  gap: 10px; 
+  margin-bottom: 20px;          
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  gap: 10px; 
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 758px) {
+  .row1, .row2 {
+    flex-direction: column; 
+  }
+  
+  .column1, .column2, .column3, .column4, .column5, .column6, .column7 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .eve, .nova, .haajir, .kieran, .katie, .jack {
+    flex-shrink: 0;
+  }
+
+  .evedescription, .novadescription, .haajirdescription, .kierandescription, .katiedescription, .jackdescription {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

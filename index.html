@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="mycss/navigation.css"/>
     <link rel="stylesheet" type="text/css" href="mycss/homepage.css"/>
     <link rel="stylesheet" type="text/css" href="mycss/aboutus.css"/>
+    <link rel="stylesheet" type="text/css" href="mycss/meettheteam.css"/>
+    <link rel="stylesheet" type="text/css" href="mycss/careers.css"/>
     <link rel="icon" type="image/x-icon" href="/images/logopicture.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
@@ -16,16 +18,17 @@
 <style>
     body {
         font-family: Arial, Helvetica, sans-serif; 
-        color: white;
+        color: rgb(0, 0, 0);
         flex-direction: column; 
         align-items: center; 
         text-align: center;
+        box-sizing: border-box;
     }
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-<!-- change the "a" to another webpage link when they are coded -->
+<!-- Navigation -->
 <div class="topnav">
     <div class="topnav-centered">
         <a href="#home" class="active"> Home </a>
@@ -38,12 +41,12 @@
     </div>
 </div>
 
+<!-- Home -->
 <div id="homepagecontent">
     <h1 class="digitaltitle">
         <strong> Digital Minds </strong>
     </h1>
 </div>
-
 <div class="container">
     <div id="mario">
         <img src="images/officiallogo.png" alt="Digital Minds Workspace" class="workspace"/>
@@ -63,6 +66,7 @@
     </div>
 </div>
 
+<!-- About Us -->
 <div id="aboutuscontent">
     <div>
         <h1 class="aboutustitle">
@@ -81,6 +85,122 @@
     </div>
 </div>
 
+<!-- Meet The Team -->
+<div id="meettheteam">
+    <div>
+        <h1 class="meettheteamtitle">
+            <strong> Meet The Team </strong>
+        </h1>
+    </div>
+    <!-- meet the team row 1 -->
+        <div class="meettheteamsection1">
+            <div class="row1">
+                <div class="column1">
+                    <h2> Eve Liggins </h2>
+                    <p> Director and Founder </p>
+                    <div class="eve">
+                        <img src="images/eve.png" alt="Eve Liggins"/>
+                        <p class="evedescription"> Eve founded Digital Minds in 2007 with a passion for website development. Driven by excellence, she studied BTEC IT at Reading College. She has one dog and in her free time, she does lots of running. </p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <h2> Nova Karupalli </h2>
+                    <p> Head of Website Development </p>
+                    <div class="nova">
+                        <img src="images/nova.png" alt="Nova Karupalli"/>
+                        <p class="novadescription"> Nova joined Digital Minds in 2006 and has been vital in its evolution. She has always loved IT, especially website development and is thrilled she has been able to undertake a career in the field. Nova's favourite colour is purple and she loves doing drama and singing. </p>
+                    </div>
+                </div>
+                <div class="column3">
+                    <h2> Haajir Abrahams </h2>
+                    <p> Chief Executive Officer </p>
+                    <div class="haajir">
+                        <img src="images/haajir.png" alt="Haajir Abrahams"/>
+                        <p class="haajirdescription"> Haajir has always had a deep fascination with coding. She has created many coding projects and games before joining Digital Minds. In her free time, she plays sports and watches Baseball.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- meet the team row 2 -->
+        <div class="meettheteamsection2">
+            <div class="row2">
+                <div class="column4">
+                    <h2> Kieran Smith </h2>
+                    <p> Senior Web Developer </p>
+                    <div class="kieran">
+                        <img src="images/kieran.png" alt="Kieran Smith"/>
+                        <p class="kierandescription"> Kieran joined Digital Minds with an inspiring attitude. He wasn't always keen on website development but decided it was the best option for him. In his free time, Kieran plays Roblox and basketball. He is a fan of the Golden State Warriors. </p>
+                    </div>
+                </div>
+                <div class="column5">
+                    <h2> Katie Webber </h2>
+                    <p> Junior Web Developer </p>
+                    <div class="katie">
+                        <img src="images/katie.png" alt="Katie Webber"/>
+                        <p class="katiedescription"> Katie has always had a passion for website development ever since she was young. She has completed many IT courses and decided that website development suited her the most. She is very fond of ladybirds and her favourite TV show is Miraculous.</p>
+                    </div>
+                </div>
+                <div class="column6">
+                    <h2> Jack Hollow </h2>
+                    <p> Trainee Web Developer </p>
+                    <div class="jack">
+                        <img src="images/jack.png" alt="Jack Hollow"/>
+                        <p class="jackdescription"> Jack joined Digital Minds in early 2025 with little experience. He completed one of our online courses and decided to pursue a career with us. In his free time, Jack plays video games and his favoruite is "Sea Of Thieves". </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Careers -->
+<div id="careers">
+    <div>
+        <h1 class="careerstitle">
+            <strong> Careers </strong>
+        </h1>
+    </div>
+    <!-- careers little box and big box combo -->
+<div class="gridcontainer">
+    <!-- first dropdown -->
+    <details class="column7">
+        <summary><h2> Available Courses </h2> 
+                <i class="bi-caret-down-fill"></i>
+        </summary>
+        <div class="content">
+            <ul>
+                <li> Full HTML Course </li>
+                <li> Digital Minds Online Short Course in Python </li>
+                <li> Javascript Training </li>
+            </ul>
+        </div>
+    </details>
+    <!-- second dropdown -->
+    <details class="column8">
+        <summary> <h2> Job Specifications </h2> 
+            <i class="bi-caret-down-fill"></i>
+        </summary>
+        <div class="content">
+            <p> Full time, Permanent, Minimum 3 years experience in HTML, CSS, Javascript.  </p>
+        </div>
+    </details>
+    <!-- third dropdown -->
+    <details class="column9">
+        <summary> <h2> Available Jobs </h2> 
+            <i class="bi-caret-down-fill"></i>
+        </summary>
+        <div class="content"> 
+            <ul>
+                <li> Frontend Developer </li>
+                <li> Backend Engineer </li>
+                <li> Fullstack Developer </li>
+                <li> Level 4 Software Engineering Apprentice </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+<!-- Footer -->
 <div class="footcontent">
     <footer>
         <div class="addtele">
@@ -93,7 +213,5 @@
         </div>
     </footer>
 </div>
-
 </body>
-<script src="myjs/index.js"></script>
 </html>
