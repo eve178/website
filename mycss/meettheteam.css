@@ -1,4 +1,4 @@
-#meettheteam {
+#meet {
   display: block;
   clear: both; 
   padding-top: 50px; 
@@ -21,13 +21,13 @@
   width: 100%;
   padding-top: 30px;
 }
-.meettheteamsection2 {
+.meettheteamsection2, .meettheteamsection3 {
   display: flex;
   padding: 0;
   width: 100%;
 }
 
-.column1, .column2, .column3, .column4, .column5, .column6 {
+.column1, .column2, .column3, .column4, .column5, .column6, .column7, .column8, .column9, .column10, .column11 {
   flex: 1;
   padding: 20px;
   min-height: 400px;
@@ -36,28 +36,20 @@
   transition: transform 0.3s ease;
 }
 
-.column1:hover, .column2:hover, .column3:hover, .column4:hover, .column5:hover, .column6:hover {
+.column1:hover, .column2:hover, .column3:hover, .column4:hover, .column5:hover, .column6:hover, .column7:hover, .column8:hover, .column9:hover, .column10:hover, .column11:hover {
   background-color: #5b5879;
   cursor: pointer;
   z-index: 10;
 }
 
-.eve, .nova, .haajir, .kieran, .katie, .jack {
+.eve, .nova, .haajir, .ryan, .myles, .peter, .lucas, .abdullah, .alishia, .benedicte, .harry {
   max-width: 100%;  
   height: auto;     
   display: block;   
   margin: 0 auto;
 }
 
-.evedescription, .novadescription, .haajirdescription, .kierandescription, .katiedescription, .jackdescription {
-  padding: 0;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: left;
-  font-size: large;
-}
-
-.row1 { 
+.row1,.row2, .row3, .row4 { 
   display: flex;
   flex-direction: row; 
   width: 100%;
@@ -65,32 +57,19 @@
   margin-bottom: 20px;          
 }
 
-.row2 {
-  display: flex;
-  flex-direction: row; 
-  width: 100%;
-  gap: 10px; 
-  margin-bottom: 20px;
-}
-
 
 @media screen and (max-width: 758px) {
-  .row1, .row2 {
+  .row1, .row2, .row3, .row4 {
     flex-direction: column; 
   }
   
-  .column1, .column2, .column3, .column4, .column5, .column6, .column7 {
+  .column1, .column2, .column3, .column4, .column5, .column6, .column7, .column8, .column9, .column10, .column11 {
     width: 100%;
     height: auto;
     padding-bottom: 20px;
   }
 
-  .eve, .nova, .haajir, .kieran, .katie, .jack {
+  .eve, .nova, .haajir, .ryan, .myles, .peter, .lucas, .abdullah, .alishia, .benedicte, .harry {
     flex-shrink: 0;
-  }
-
-  .evedescription, .novadescription, .haajirdescription, .kierandescription, .katiedescription, .jackdescription {
-    margin-left: 20px;
-    margin-right: 20px;
   }
 }
