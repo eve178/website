@@ -62,22 +62,14 @@ summary {
 }
 
 summary::after {
-    content: '\2304';
     position: absolute;
-    right: 20px;
-    top: 50%;
-    width: 10px;
-    height: 10px;
-    border-right: 2px solid white;
-    border-bottom: 2px solid white;
-    transform: translateY(-70%) rotate(45deg); /* Forms a chevron */
     transition: 0.3s;
 }
 
 details[open] summary i {
     transform: rotate(180deg);
-    display: inline-block; /* Required for transform to work */
-    transition: transform 0.3s ease; /* Smooth flip */
+    display: inline-block; 
+    transition: transform 0.3s ease; 
 }
 
 summary i {
@@ -91,4 +83,22 @@ summary i {
     margin-top: 10px;
     text-align: left;
     font-size: 18px;
+}
+
+@media screen and (max-width: 758px) {
+    .gridcontainer {
+        grid-template-columns: 1fr;
+    }
+    .box1, .box2, .box3 {
+        grid-column: auto;
+        grid-row: auto;
+        background-color: #363166;
+        color: white;
+        padding: 1em;
+        border-radius: 8px;
+        cursor: pointer;
+        list-style: none;
+        align-self: start;
+        position: relative
+    }
 }

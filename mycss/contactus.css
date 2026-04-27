@@ -1,8 +1,9 @@
 #contact {
-    display: block;
-    clear: both; 
-    padding-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px; 
     width: 100%;
+    align-items: center;
 }
 
 .contactustitle {
@@ -11,21 +12,25 @@
     padding-left: 10.417vw; 
     padding-right: 10.417vw;
     padding-bottom: 0px; 
-    display:inline;
+    display: inline;
     border-bottom: 2px solid #000000;
 }
 
 .form {
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 20px;
     padding: 0;
     padding-top: 30px;
 }
 
-#emailaddress, #phonenumber, #lname, #fname {
+#emailaddress, #phonenumber, #lname, #fname, #messageus {
     height: 50px;
-    width: 500px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #messageus {
-    height: 100px;
-    width: 500px;
+    height: 150px;
+    width: 100%;
 }
