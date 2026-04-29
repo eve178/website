@@ -1,9 +1,14 @@
 .topnav {
     background-color: #363166;
-    overflow: hidden; /* This is the "magic" line that clears floats */
+    overflow: hidden; 
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .topnav {
     position: sticky;
     top:0
+  }
 }
 
 .topnav a {
