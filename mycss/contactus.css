@@ -20,17 +20,35 @@
     width: 90%;
     max-width: 500px;
     margin-bottom: 20px;
-    padding: 0;
     padding-top: 30px;
+    margin: 0 auto;
 }
 
-#emailaddress, #phonenumber, #lname, #fname, #messageus {
-    height: 50px;
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
     width: 100%;
+    padding: 10px;
     box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-#messageus {
+textarea {
     height: 150px;
+    resize: vertical; 
+}
+
+input[type="submit"] {
     width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #363166;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }

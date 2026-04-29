@@ -34,7 +34,7 @@
     text-align: left;
 }
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
         flex-direction: column; 
         align-items: center;    
@@ -48,7 +48,7 @@
     .overview-content {
         text-align: center;     
     }
-  }
+}
 
 #mario {
     flex-shrink: 0;
