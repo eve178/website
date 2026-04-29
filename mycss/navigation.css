@@ -2,6 +2,8 @@
     background-color: #363166;
     overflow: hidden; /* This is the "magic" line that clears floats */
     width: 100%;
+    position: sticky;
+    top:0
 }
 
 .topnav a {
