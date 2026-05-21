@@ -1,0 +1,104 @@
+#careers {
+    display: block;
+    clear: both; 
+    padding-top: 50px; 
+    width: 100%;
+}
+
+.careerstitle {
+    text-align: center; 
+    padding: 1.042vw; 
+    padding-left: 10.417vw; 
+    padding-right: 10.417vw;
+    padding-bottom: 0px; 
+    display:inline;
+    border-bottom: 2px solid #000000;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    padding: 10px;
+    padding-top: 30px;
+    align-items: start;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+.box1, .box2 {
+    background-color: #363166;
+    color: white;
+    padding: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    list-style: none;
+    grid-column: 1 / 2;
+    align-self: start;
+}
+
+.box3 {
+    background-color: #363166;
+    color: white;
+    padding: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    list-style: none; 
+    grid-column: 2 / 3; 
+    grid-row: 1 / 3;
+    align-self: start;
+}
+
+summary {
+    outline: none;
+    list-style: none;
+    padding-right: 30px;
+}
+
+summary::after {
+    position: absolute;
+    transition: 0.3s;
+}
+
+details[open] summary i {
+    transform: rotate(180deg);
+    display: inline-block; 
+    transition: transform 0.3s ease; 
+}
+
+summary i {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.content {
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 758px) {
+    .gridcontainer {
+        grid-template-columns: 1fr;
+    }
+    .box1, .box2, .box3 {
+        grid-column: auto;
+        grid-row: auto;
+        background-color: #363166;
+        color: white;
+        padding: 1em;
+        border-radius: 8px;
+        cursor: pointer;
+        list-style: none;
+        align-self: start;
+        position: relative
+    }
+}
